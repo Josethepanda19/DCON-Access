@@ -61,7 +61,7 @@ body{
     margin: 0;
     padding: 0;
 	background-color: #394a80;
-    background-image: url("/images/Backgrounds/Background4.png");
+    background-image: url("images/Backgrounds/Background4.png");
 /*    background-image: linear-gradient(to bottom right, #8DD1E9, #F2C0C9);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
