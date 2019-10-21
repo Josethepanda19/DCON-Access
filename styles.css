@@ -630,6 +630,9 @@ Collapsible Button Section
 /****************
 	FAQ CSS
 ****************/
+#faq li{
+	color:black;
+}
 .FAQ-box{
 	background-color:aliceblue;
 	width: 100%;
