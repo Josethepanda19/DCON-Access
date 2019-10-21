@@ -2,11 +2,11 @@
 
 @font-face{
 	font-family:'LemonMilklight';
-	src:url("fonts/LemonMilklight.ttf")
+	src:url("../fonts/LemonMilklight.ttf")
 }
 @font-face{
 	font-family:'Amarillo';
-	src: url("fonts/Amarillo.ttf");
+	src: url("../fonts/Amarillo.ttf");
 }
 /***************************
 	Table of Contents
@@ -73,7 +73,7 @@ body{
     margin: 0;
     padding: 0;
 	background-color: #394a80;
-    background-image: url("images/Backgrounds/Background4.png");
+    background-image: url("../images/Backgrounds/Background4.png");
 /*    background-image: linear-gradient(to bottom right, #8DD1E9, #F2C0C9);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -231,7 +231,7 @@ nav{
     overflow: hidden;
     align-content: center;
 	background-color:#fff; 
-	background-image: url(images/icons/BlueStripes.png);
+	background-image: url(../images/icons/BlueStripes.png);
 	background-size:100% 10%;
 	background-repeat:no-repeat;
 	background-position: bottom;
