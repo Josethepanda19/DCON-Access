@@ -31,6 +31,12 @@
 
 /*Responsive Body */
 @media only screen and (max-width: 576px){
+	html{
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover !important; 
+/*		background: url(../images/mobile.jpg) no-repeat center center fixed;*/
+	}
 	.download-button-inactive{
 		width:100%;
 		margin-left:0;
@@ -91,13 +97,6 @@
 		width:100%;
 		clear:left;
 		text-align: center;
-	}
-	body{
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover !important; 
-/*		background: url(../images/mobile.jpg) no-repeat center center fixed;*/
-		
 	}
 	h1{
 		line-height: 2.25em;
