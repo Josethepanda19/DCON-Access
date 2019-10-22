@@ -68,15 +68,15 @@ html{
 	font-family: 'Century Gothic', 'verdana',sans-serif; 
 	margin:0;
 	padding:0;
+	background-image: url("../images/Backgrounds/Background4.png");
+/*    background-image: linear-gradient(to bottom right, #8DD1E9, #F2C0C9);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #394a80;
 }
 body{
     margin: 0;
     padding: 0;
-	background-color: #394a80;
-    background-image: url("../images/Backgrounds/Background4.png");
-/*    background-image: linear-gradient(to bottom right, #8DD1E9, #F2C0C9);*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 	color:white;
 	line-height: 1.5;
 }
@@ -407,8 +407,7 @@ nav{
     background-color: aliceblue;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-	
-	/*TEMP*/
+
 	border-top-left-radius: 30px;
 	border-top-right-radius: 30px;
 }
@@ -427,6 +426,7 @@ nav{
 #announcements h3{
 	margin: 0;
 	color:black;
+	margin-left: 10px;
 }
 #announcements h5{
 	text-align: left;
@@ -442,6 +442,7 @@ nav{
 }
 #announcements p{
 	text-align:left;
+	margin-left: 6px;
 }
 
 /***********************
@@ -642,7 +643,6 @@ Collapsible Button Section
 	border-radius: 10px;
 }
 .FAQ-Cat{
-/*	background-color:yellow;*/
 	margin:0;
 	padding:0;
 }
@@ -664,15 +664,14 @@ Collapsible Button Section
 
 /* Style the buttons that are used to open and close the accordion panel */
 #faq .accordion {
-  background-color: #bee5f5; /*#eee #91bad4;*/
-  color: #3A3A3A;
-  cursor: pointer;
-  padding: 18px;
-  
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+	background-color: #bee5f5; /*#eee #91bad4;*/
+	color: #3A3A3A;
+	cursor: pointer;
+	padding: 18px;
+	text-align: left;
+  	border: none;
+  	outline: none;
+  	transition: 0.4s;
 	float:right;
 	width: 100%;
 	font-family: 'Century Gothic', 'verdana',sans-serif; 
@@ -699,22 +698,21 @@ Collapsible Button Section
 }
 
 #faq .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
+  content: '\02795'; /* Unicode character for "plus" sign (+) 13*/
+  font-size: 17px;
+  color: black;
   float: right;
   margin-left: 5px;
 }
 
 #faq .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796";  /*Unicode character for "minus" sign (-) */
 }
 #faq .button{
 	width: 15%;
 	margin-left:2.15%;
 	margin-right:2.15%;
 	padding: 10px 10px 10px 10px;
-	
 	border-color:#5C5C5C;
 	border-radius: 10px;
 	font-size:1.15em;
