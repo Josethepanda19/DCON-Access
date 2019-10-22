@@ -33,7 +33,7 @@
 @media only screen and (max-width: 576px){
 	html{
 		background-repeat: no-repeat;
-		background-attachment: fixed;
+/*		background-attachment: fixed;*/
 		background-size: cover !important; 
 /*		background: url(../images/mobile.jpg) no-repeat center center fixed;*/
 	}
