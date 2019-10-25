@@ -15,7 +15,10 @@
 2. Navigation Bar
 
 ****************************/
-
+.getInvolved{
+	background-color: #E5E5E5;
+	border-radius: 10px;
+}
 
 .lost{
 	font-family:'Lost in Wild', 'Century Gothic', 'verdana', 'sans-serif';
@@ -68,17 +71,21 @@ html{
 	font-family: 'Century Gothic', 'verdana',sans-serif; 
 	margin:0;
 	padding:0;
-	background-image: url("../images/Backgrounds/Background4.png");
-/*    background-image: linear-gradient(to bottom right, #8DD1E9, #F2C0C9);*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	background-color: #394a80;
+	
+	
 }
 body{
     margin: 0;
     padding: 0;
 	color:white;
 	line-height: 1.5;
+	background-color: #394a80;
+	
+	background-image: url("../images/Backgrounds/Background4.png");
+	background-size: cover;
+/*    background-image: linear-gradient(to bottom right, #8DD1E9, #F2C0C9);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .card {
@@ -585,6 +592,7 @@ Collapsible Button Section
 	
 }
 
+
 /*Get Involved Section CSS (may not need anymore*/
 #get-involved .involve-column{
 	width: 33%;	
@@ -721,5 +729,73 @@ Collapsible Button Section
 	background-color:#bee5f5;
 }
 #faq .button:hover{
+	background-color: #ed9bab;
+}
+
+/**************************
+	Get Involved Section
+**************************/
+
+.youtubeEmbed{
+	max-width: 100%; 
+	border-radius: 15px;
+	padding:5px; 
+	display: block; 
+	margin-left:-5px;
+					
+	-webkit-box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.getInvolvedSection{
+	margin-top:0;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-left: 10%;
+	width: 80%;
+}
+.videoBox{
+	background-color: #E5E5E5;
+	border-color: #000000;
+/*	padding: 20px;*/
+					
+	border-radius: 10px;
+	display: inline-block;
+	color:black;
+}
+#get-involved p{
+	text-align: left;
+}
+#get-involved hr{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#get-involved .mobileSplit{
+	display: none;
+}
+@media only screen and (max-width: 576px){
+	#get-involved .mobileSplit{
+		display:flex;
+		width: 100%;
+/*		margin-top: 50px;*/
+	}
+	#get-involved .mobileSplit2{
+		margin-bottom:50px;
+	}
+}
+.involve-button2{
+	background-color:#bee5f5;				
+	/*Overall box*/				
+	width:100%;
+	font-size:18px;
+	padding:10px;
+	cursor:pointer;
+	margin:0px;
+	/*border CSS*/			
+	border-color:#5C5C5C;
+	border-radius:10px;				
+	-webkit-box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.involve-button2:hover{
 	background-color: #ed9bab;
 }
