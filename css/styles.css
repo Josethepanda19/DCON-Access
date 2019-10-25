@@ -83,6 +83,7 @@ body{
 	
 	background-image: url("../images/Backgrounds/Background7.png");
 	background-size: cover;
+	background-position: center;
 /*    background-image: linear-gradient(to bottom right, #8DD1E9, #F2C0C9);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
