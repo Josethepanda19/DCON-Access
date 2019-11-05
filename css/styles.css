@@ -310,6 +310,7 @@ nav{
 	}
 	.CKIlogo{
 		display:none; 				/*Hides the original logo on full width page*/
+		
 	}
 	nav{
 		background-size: 100% 1%;
